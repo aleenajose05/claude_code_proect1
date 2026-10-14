@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kadha — Every perfume has a story to tell</title>
+  <meta name="description" content="Kadha handcrafted perfumes. Every perfume has a story to tell.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <header id="site-header" class="site-header"></header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Handcrafted perfumes · Est. 2026</p>
+          <h1>Every perfume<br>has a <em>story</em> to tell.</h1>
+          <p class="lead">Kadha means <em>story</em>. Each of our fragrances begins as a memory — a monsoon forest, a midnight dance, a letter never sent — and ends as a trail only you can leave.</p>
+          <div class="btn-row">
+            <a href="shop.html" class="btn">Discover the collection</a>
+            <a href="#finder" class="btn btn-outline">Find your scent</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-frame hero-frame-main"><img src="images/velvet-haze.png" alt="Kadha Velvet Haze perfume surrounded by soft smoke"></div>
+          <div class="hero-frame hero-frame-small"><img src="images/golden-hour.png" alt="Kadha Golden Hour perfume on silk with dried oranges"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promise">
+      <div class="container promise-grid">
+        <div><strong>Long-lasting</strong><span>8–12 hour concentrations</span></div>
+        <div><strong>Cruelty-free</strong><span>Never tested on animals</span></div>
+        <div><strong>Handcrafted</strong><span>Small-batch blending</span></div>
+        <div><strong>Free shipping</strong><span>On orders above ₹1,999</span></div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <p class="eyebrow">Featured stories</p>
+        <h2>Chapters in a bottle</h2>
+      </div>
+      <div id="featured-stories" class="stories"></div>
+    </section>
+
+    <section class="section moods-section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Shop by mood</p>
+          <h2>What story are you telling today?</h2>
+        </div>
+        <div id="mood-list" class="moods"></div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <p class="eyebrow">The collection</p>
+        <h2>Our bestsellers</h2>
+      </div>
+      <div id="bestsellers" class="grid"></div>
+    </section>
+
+    <section id="finder" class="section finder">
+      <div class="container finder-inner">
+        <div class="section-head">
+          <p class="eyebrow">Fragrance finder</p>
+          <h2>Which story are you?</h2>
+          <p class="muted">Three questions. One perfume that was written for you.</p>
+        </div>
+        <div id="quiz" class="quiz"></div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <p class="eyebrow">Kind words</p>
+        <h2>Stories from our customers</h2>
+      </div>
+      <div class="reviews">
+        <blockquote class="reveal"><p>“Monsoon Canopy smells exactly like the drive up to Munnar in July. I get stopped and asked about it every week.”</p><cite>— Arjun, Kochi</cite></blockquote>
+        <blockquote class="reveal"><p>“Velvet Haze lasts through a full wedding night. Warm, smoky and completely unforgettable.”</p><cite>— Meera, Bengaluru</cite></blockquote>
+        <blockquote class="reveal"><p>“I bought Golden Hour as a gift and ended up ordering a bottle for myself the same evening.”</p><cite>— Sana, Mumbai</cite></blockquote>
+      </div>
+    </section>
+
+    <section class="section newsletter">
+      <div class="container newsletter-inner">
+        <p class="eyebrow">The Kadha journal</p>
+        <h2>Get a new story every month</h2>
+        <p class="muted">Early access to new launches, behind-the-scenes from our perfumers, and 10% off your first order.</p>
+        <form id="newsletter" class="newsletter-form">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" placeholder="Your email address" required>
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

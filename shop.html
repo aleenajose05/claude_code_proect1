@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop All Perfumes — Kadha</title>
+  <meta name="description" content="Shop Kadha perfumes by fragrance family, mood and occasion.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="shop">
+  <header id="site-header" class="site-header"></header>
+  <main class="container section">
+    <div class="page-head">
+      <p class="eyebrow">The collection</p>
+      <h1>All Perfumes</h1>
+      <p class="muted">Find the story that feels like yours — filter by fragrance family, who it's for, or the mood you're in.</p>
+    </div>
+    <div class="shop-layout">
+      <aside class="filters">
+        <div class="filter-group"><h4>Fragrance family</h4><div id="filter-family" class="chips"></div></div>
+        <div class="filter-group"><h4>For</h4><div id="filter-gender" class="chips"></div></div>
+        <div class="filter-group"><h4>Mood</h4><div id="filter-mood" class="chips"></div></div>
+      </aside>
+      <div>
+        <div class="shop-bar">
+          <span id="result-count" class="muted"></span>
+          <label>Sort by
+            <select id="sort">
+              <option value="featured">Featured</option>
+              <option value="rating">Top rated</option>
+              <option value="price-asc">Price: low to high</option>
+              <option value="price-desc">Price: high to low</option>
+            </select>
+          </label>
+        </div>
+        <div id="shop-grid" class="grid grid-shop"></div>
+      </div>
+    </div>
+  </main>
+  <footer id="site-footer" class="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
